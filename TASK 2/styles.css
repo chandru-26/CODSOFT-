@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffe5b4;
+}
+
+header {
+  background: #ff6347;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+  background-color: #ffcc80;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+footer {
+  background: #ff6347;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+img {
+  width: 100%; /* Full width of its container */
+  max-width: 800px; /* Prevents excessive stretching */
+  height: 300px; /* Set a fixed height */
+  object-fit: cover; /* Ensures the image fills the area without distortion */
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px; /* Optional rounded corners */
+}
+/* Style the gallery section */
+#gallery {
+  padding: 40px; /* Adds space inside the section */
+  text-align: center;
+  background-color: #ffcc80; /* Optional: Background color */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Style the image container */
+.gallery {
+  display: flex;
+  justify-content: center; /* Centers images horizontally */
+  gap: 20px; /* Adds space between images */
+  flex-wrap: wrap; /* Allows images to wrap on smaller screens */
+}
+
+/* Style the images */
+.gallery img {
+  width: 30%; /* Makes sure all images are of equal width */
+  max-width: 300px; /* Prevents overly large images */
+  height: auto;
+  border-radius: 10px;
+  padding: 10px; /* Space inside image borders */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds depth */
+}
+
+/* Style the services section */
+#services {
+  padding: 40px;
+  text-align: center;
+  background-color: #ffe082; /* Light yellow background */
+  border-radius: 10px;
+}
+
+/* Style the service list */
+#services ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+/* Style each service item */
+#services li {
+  background: #ff7043; /* Light red background */
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+/* Add hover effect */
+#services li:hover {
+  background: #d84315; /* Darker red */
+  transform: scale(1.1);
+  cursor: pointer;
+}
+/* Style the header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ff7043;
+  color: white;
+}
+
+/* Logo container styling */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo image styling */
+.logo {
+  width: 100px; /* Adjust width */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 80px; /* Prevents logo from getting too large */
+  margin-right: 15px; /* Space between logo and title */
+}
+
+/* Navigation styling */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd54f;
+}
